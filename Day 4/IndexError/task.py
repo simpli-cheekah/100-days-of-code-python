@@ -5,5 +5,19 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "California", "Minnesota", "Oregon", "Kansas", "West Virginia", "Nevada", "Nebraska", "Colorado",
                      "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma",
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
-
 print(states_of_america)
+
+print(len(states_of_america))
+
+print(states_of_america[-1]) #last state
+#print(states_of_america[50])  # index error cause number start from 0 so no 50, its 0 - 49
+
+fruits = ["Cherry", "Apple", "Pear"]
+veg = ["Cucumber", "Kale", "Spinach"]
+fruits_and_veg = [fruits, veg] # this is called nested lists
+#The list would look like this: [["Cherry", "Apple", "Pear"], ["Cucumber", "Kale", "Spinach"]]
+
+print(fruits_and_veg[1])
+print(fruits_and_veg[0])
+
+print(fruits_and_veg[1][0])
